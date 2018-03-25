@@ -1,5 +1,10 @@
-///<reference path="Car"/>
+/// <reference path="Color.ts" />
 
+module ColorModule{
+    
+    var red = new Color();
+    red.name = "red";
+    red.code = "#FF1234";
 
-var opala = new Car("Opala Comodoro", "Marron", 150);
-opala.getCar();
+    console.log(red.getColor());
+}
